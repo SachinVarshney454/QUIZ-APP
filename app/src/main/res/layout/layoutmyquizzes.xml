@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:elevation="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:elevation="8dp"
+        android:layout_margin="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="I5H2"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="22dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+           
+            android:id="@+id/code"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/subject"
+            android:text="Subject"
+            android:textSize="17dp"
+            android:layout_marginTop="54dp"
+            android:layout_marginLeft="38dp"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="90dp"
+            android:text="NOV 24,2024"
+            android:textColor="#BEBEBE" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:textSize="16dp"
+            android:id="@+id/author"
+            android:text="AUTHOR"
+            android:layout_marginLeft="251dp"
+            android:layout_marginTop="22dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:textColor="#BEBEBE"
+            android:text="time"
+            android:id="@+id/time"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="90dp"/>
+
+
+         
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00FFFFFF"
+        android:id="@+id/button"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

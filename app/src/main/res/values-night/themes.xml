@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme using Material3 -->
+    <style name="Theme.Test1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryContainer">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryContainer</item>
+
+        <!-- Customize theme elements here -->
+    </style>
+
+    <!-- Fullscreen variant of the base theme -->
+    <style name="Theme.Test1.Fullscreen" parent="Theme.Test1">
+        <item name="android:actionBarStyle">@style/Widget.Theme.Test1.ActionBar.Fullscreen</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Custom Overlay Style (fullscreen container) -->
+    <style name="FullscreenContainerStyle">
+        <!-- Customize your background and text colors -->
+        <item name="android:background">@color/light_blue_600</item>
+        <item name="android:textColor">@color/light_blue_A200</item>
+    </style>
+
+</resources>

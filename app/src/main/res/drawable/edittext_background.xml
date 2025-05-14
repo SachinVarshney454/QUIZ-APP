@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- res/drawable/edittext_background.xml -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+
+        <!-- Outline/border color and width -->
+        <stroke
+            android:width="2dp"
+            android:color="#BDBDBD" /> <!-- Light gray border -->
+
+        <!-- Background color -->
+        <solid android:color="#FFFFFF" /> <!-- White background -->
+
+        <!-- Corner radius for rounded corners -->
+        <corners android:radius="8dp" />
+
+    </shape>
+
+</selector>

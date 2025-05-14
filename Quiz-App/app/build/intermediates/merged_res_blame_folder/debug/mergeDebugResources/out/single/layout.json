@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/deleteaccount.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/deleteaccount.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_upcominglayout.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_upcominglayout.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/fragment_notifications.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.test1.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "com.example.test1.app-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_create.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_create.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/layoutmyquizzes.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/layoutmyquizzes.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_timer.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_timer.xml"
+    },
+    {
+        "merged": "com.example.test1.app-mergeDebugResources-54:/layout/fragment_dashboard.xml",
+        "source": "com.example.test1.app-main-57:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/fragment_dashboard.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/layoutparticipants.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/layoutparticipants.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/layoutquizzes.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/layoutquizzes.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_quizperformcompleted.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_quizperformcompleted.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_mainlogo.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_mainlogo.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/pastquizzes.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/pastquizzes.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_quizcreationcompleted.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_quizcreationcompleted.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_changepass.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_changepass.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/fragment_myquizzes.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/fragment_myquizzes.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/loginscreen.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/loginscreen.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_quizcreation.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_quizcreation.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_quiz.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_signup.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-mergeDebugResources-54:/layout/activity_participants.xml",
+        "source": "/Users/yashvarshney/.gradle/daemon/8.7/com.example.test1.app-main-57:/layout/activity_participants.xml"
+    }
+]

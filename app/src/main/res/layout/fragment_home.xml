@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0"
+    android:layout_marginBottom="50dp"
+
+    tools:context=".ui.home.HomeFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:visibility="gone"
+            android:translationZ="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:minHeight="250dp"
+            android:layout_marginTop="-50dp"
+            app:cardBackgroundColor="#E0F7FA"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoSizeMinTextSize="42dp"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="100dp"
+                android:id="@+id/name"
+                android:layout_marginTop="60dp"
+                android:paddingHorizontal="12dp"
+                android:paddingRight="25dp"
+                android:paddingBottom="20dp"
+                android:fontFamily="sans-serif-black"
+                android:maxHeight="260dp"
+                android:text="Hello Yash Varshney"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:elevation="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:minHeight="300dp"
+            app:cardCornerRadius="25dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="New Quiz?"
+                android:paddingLeft="20dp"
+                android:textColor="#C76e00"
+                android:layout_marginTop="6dp"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="90dp"
+                    android:paddingHorizontal="19dp"
+                    app:boxStrokeColor="#DE000000"
+                    app:hintEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/code"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textColorHint="#9E9E9E"
+                        android:paddingLeft="20dp"
+                        app:boxStrokeColor="#DE000000"
+
+                        android:fontFamily="sans-serif"
+                        android:layout_height="match_parent"
+                        android:hint="Enter Code"
+                       />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_marginTop="160dp"
+                    android:layout_width="match_parent"
+                    android:paddingHorizontal="19dp"
+                    android:layout_height="wrap_content"
+                    app:boxStrokeColor="#DE000000"
+                    app:hintEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:fontFamily="sans-serif"
+                        android:hint="Enter Pin"
+                        android:id="@+id/pin"
+                        android:numeric="integer"
+                        android:maxLength="4"
+                        android:paddingLeft="20dp"
+                        android:singleLine="true"
+                        app:boxStrokeColor="#DE000000"
+                        android:textColor="#000000"
+                        android:textColorHint="#9E9E9E"
+                        />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="42dp"
+                app:cardCornerRadius="12dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:backgroundTint="#4D63F5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="233dp">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#4D63F5"
+                    android:text="Enter quiz"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:elevation="2dp"
+                    android:id="@+id/quiz"/>
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/nodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="123dp"
+            android:fontFamily="@font/inter"
+            android:gravity="center"
+            android:text="No Scheduled Quizzes"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:translationZ="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cardView5"
+            app:layout_constraintEnd_toEndOf="@+id/cardView5"
+            app:layout_constraintStart_toStartOf="@+id/cardView5"
+            app:layout_constraintTop_toTopOf="@+id/cardView5" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:padding="8dp"
+            android:layout_marginHorizontal="12dp"
+            app:cardCornerRadius="7dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="#FFDAB9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:backgroundTint="#FFDAB9"
+                android:textColor="#3B82F6"
+                android:id="@+id/create"
+                android:autoSizeTextType="uniform"
+                android:text="Create Quiz" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:elevation="8dp"
+            android:layout_marginTop="12dp"
+            app:cardCornerRadius="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView7">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="22dp"
+                android:orientation="vertical"
+                android:paddingHorizontal="12dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+
+                    app:cardCornerRadius="12dp">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+
+
+                        android:paddingLeft="12dp"
+                        android:text="Upcoming Quizzes ->"
+                        android:textColor="#00796B"
+                        android:textSize="33dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:minHeight="210dp" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </FrameLayout>
+</ScrollView>

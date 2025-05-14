@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    tools:context=".ui.settings.NotificationsFragment">
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/robotobold"
+       android:padding="15dp"
+       android:text="About"
+       android:textAlignment="center"
+       android:textColor="#193238"
+       android:textFontWeight="900"
+       android:textSize="26dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+   <TextView
+       android:id="@+id/textView4"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:scaleX="1.4"
+       android:scaleY="4"
+       android:layout_marginTop="50dp"
+
+       android:text="Quiz Connect"
+       android:textColor="#FFA500"
+       android:textSize="42dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/title" />
+
+   <TextView
+       android:id="@+id/textView8"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="120dp"
+       android:gravity="center"
+       android:text="Developed by Sachin Varshney"
+       android:textColor="#FF4500"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView4"
+        />
+
+
+   <TextView
+       android:id="@+id/name"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="12dp"
+       android:text="Yash"
+       android:textColor="	#5A5A5A"
+       android:textSize="42dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+   <TextView
+       android:id="@+id/email"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="16dp"
+       android:text="yvar454"
+       android:textSize="26dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/name" />
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/changecard"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="70dp"
+       android:layout_marginHorizontal="9dp"
+       app:cardCornerRadius="6dp"
+
+       android:backgroundTint="#A9A9A9"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/email">
+
+      <Button
+          android:id="@+id/change"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="#A9A9A9"
+          android:text="Change Password" />
+   </androidx.cardview.widget.CardView>
+
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="12dp"
+       android:layout_marginHorizontal="9dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:backgroundTint="#8B0000"
+       app:cardCornerRadius="6dp"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/signcard">
+      <Button
+          android:id="@+id/delete"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:text="Delete Account"
+          android:backgroundTint="#8B0000"
+          />
+   </androidx.cardview.widget.CardView>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:id="@+id/signcard"
+    app:cardCornerRadius="6dp"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="9dp"
+    android:layout_marginTop="12dp"
+    android:backgroundTint="#4D63F5"
+    app:layout_constraintTop_toBottomOf="@+id/changecard" >
+   <LinearLayout
+       android:id="@+id/signoption"
+       android:layout_width="match_parent"
+       android:visibility="gone"
+       android:layout_height="50dp"
+      >
+     <Button
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+        android:layout_weight="1"
+         android:backgroundTint="#FFFFFF"
+         android:id="@+id/yes"
+         android:layout_marginLeft="8dp"
+         android:textColor="#4D63F5"
+        android:text="Yes"/>
+      <Button
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/no"
+          android:backgroundTint="#4D63F5"
+          android:text="No"/>
+
+   </LinearLayout>
+   <Button
+       android:id="@+id/signout"
+
+
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:backgroundTint="#4D63F5"
+       android:text="SignOut"
+       />
+
+</androidx.cardview.widget.CardView>
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

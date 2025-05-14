@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F8F9"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".authoredquizzes.myquizzes">
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/loading">
+      <ProgressBar
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"/>
+
+   </FrameLayout>
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/data">
+
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:fontFamily="@font/robotobold"
+       android:padding="15dp"
+       android:text="Authored Quizzes"
+       android:textAlignment="center"
+       android:textColor="#193238"
+       android:textFontWeight="900"
+       android:textSize="26dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+      <TextView
+          android:id="@+id/nodata"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:fontFamily="@font/inter"
+          android:text="Sorry, No data"
+          android:textSize="30dp"
+          android:textStyle="bold"
+          app:layout_constraintBottom_toBottomOf="@+id/rview"
+          app:layout_constraintEnd_toEndOf="@+id/rview"
+          app:layout_constraintStart_toStartOf="@+id/rview"
+          app:layout_constraintTop_toBottomOf="@+id/title" />
+
+      <androidx.recyclerview.widget.RecyclerView
+
+          android:id="@+id/rview"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          app:layout_constraintBottom_toTopOf="@+id/imageView3"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/title" />
+
+      <ImageView
+          android:id="@+id/imageView3"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:background="#FFA500"
+          app:layout_constraintBottom_toBottomOf="@+id/quiz"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="@+id/quiz"
+          app:layout_constraintTop_toTopOf="@+id/quiz" />
+
+   <Button
+       android:id="@+id/quiz"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:layout_marginBottom="53dp"
+       android:backgroundTint="#FFA500"
+
+       android:text="Create Quiz"
+       android:textSize="30dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+   </FrameLayout>
+</FrameLayout>

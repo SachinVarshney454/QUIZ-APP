@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz.quizcompleted">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz \nCreated!"
+        android:textColor="#00796B"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:elevation="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+
+            android:text="Code -"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:elevation="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+
+            android:text="Pin -"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:id="@+id/textdate"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+
+            android:text="Date -"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:id="@+id/texttime"
+
+            android:text="Time -"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="420dp"
+        app:lottie_loop="true"
+        android:id="@+id/doneanim"
+
+       app:lottie_rawRes="@raw/completecreation"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
